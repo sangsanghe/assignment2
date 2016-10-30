@@ -27,6 +27,9 @@ public int maxProfit(int[] prices){
 public String convertToTitle(int n) {
     return n == 0 ? "" : convertToTitle(--n / 26) + (char)('A' + (n % 26));
 }
+// 	Please READ the problem description carefully.
+//	this question is to change excel title to number not number to title;
+//	-10;
 public int twoSum(int[] nums, int target){
 	Arrays.sort(nums);
 	int left = 0, right = nums.length - 1;
